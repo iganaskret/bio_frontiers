@@ -1761,7 +1761,7 @@ input:checked ~ .accordion__tab-content {
     line-height: 1.6em;
   }
   .page-home__sections-container > * {
-    margin: 10em;
+    margin: 6em;
     /*  background-color: $color-background; */
     margin-left: 1em;
     margin-right: 1em;
