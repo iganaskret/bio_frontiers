@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BioFrontiers</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="shortcut icon" href="../fav.png" />
+</head>
+
+<body class="page">
+    <div class="page--wrapper">
+        <header class="header">
+            <nav class="navigation">
+                <ul class="list navigation__container">
+                    <li class="navigation__container-logo">
+                        <a class="link link-js" href="../index.html">
+                            <img class="navigation__container-logo-img" src="../assets/logo/biologoblack.png" alt="logo">
+                        </a>
+                    </li>
+                    <div class="navigation__container-links navigation__container-effect">
+                        <li>
+                            <a class="link link-js link--navigation" href="../index.html?about">About</a>
+                        </li>
+                        <li>
+                            <a class="link link-js link--navigation" href="../index.html?contact">Contact</a>
+                        </li>
+                        <li>
+                            <a class="link link-js link-underline-static" href="#">Events</a>
+                        </li>
+                        <li>
+                            <a class="link link-js link--round link--navigation" target="blank"
+                                href="https://www.facebook.com/BioFrontiers-1428926263808350/">Social</a>
+                        </li>
+                    </div>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="container" class="hero-events">
+                <div class="circle"></div>
+                <div class="hero__circle svg-circle-js"></div>
+                <div class="hero-content hero-content-events">
+                    <h1 class="hero-content__title heading">Upcoming Events</h1>
+                    <p class="hero-content__subtitle">Take a look into our upcoming events, and how we work in order to
+                        create
+                        synergy
+                        and new business opportunities.</p>
+                </div>
+                <a class="hero__arrow link-js" href="#first-section">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55">
+                        <polygon class="arrow"
+                            points="34.9 31 28.5 35 28.5 17 26.5 17 26.5 35 20.1 31 19 32.7 27.5 38 36 32.7 " />
+                        <polygon class="arrow-2"
+                            points="34.9 31 28.5 35 28.5 17 26.5 17 26.5 35 20.1 31 19 32.7 27.5 38 36 32.7 " />
+                    </svg>
+                </a>
+            </section>
+            <section id="first-section" class="accordions-first-section">
+                <div class="accordions">
+                    <div class="accordions__column">
+                        <div class="accordion__tabs js-accordions-first-section__tabs">
+                        </div>
+                    </div>
+            </section>
+            <section class="accordions-second-section">
+                <h1 class="heading-events">Previous Events</h1>
+                <p class="subheading-events">Our previous events.</p>
+                <div class="accordions">
+                    <div class="accordions__column">
+                        <div class="accordion__tabs js-accordions-second-section__tabs">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__container">
+                <a class="link link-js" href="/index.html">&#x000A9 BioFrontiers</a>
+                <a class="link link-js" target="blank" href="https://duckduckgo.com/">NextOn.dk</a>
+                <a class="link link-js footer__container-item-right" target="blank" href="https://duckduckgo.com/">MIK
+                    Studio</a>
+            </div>
+        </footer>
+    </div>
+
+    <template>
+        <div class="accordion__tab">
+            <input type="checkbox" class="js-checkbox">
+            <label class="accordion__tab-label js-accordion__tab-label link-js">
+                <span class="js-accordion__tab-title">TITLE</span>
+                <span class="accordion__tab-date js-accordion__tab-date">DATE</span>
+                <div class="accordion__tab-arrow svg-arrow-js"></div>
+            </label>
+            <div class="accordion__tab-content js-accordion__tab-content">
+                <p>TEXT CONTENT</p>
+                <div class="accordion__tab-content-first-extra">
+                    <a class="link accordion__tab-link js-link accordion__tab-link-poster link-js" target="_blank"
+                        href="https://duckduckgo.com/">See the Event Poster
+                        <div class="accordion__tab-content-extra-arrow svg-arrow-js"></div>
+                    </a>
+                </div>
+                <div class="accordion__tab-content-second-extra">
+                    <a class="link accordion__tab-link js-link accordion__tab-link-speakers link-js" target="_blank"
+                        href="https://duckduckgo.com/">Invited Speakers
+                        <div class="accordion__tab-content-extra-arrow svg-arrow-js"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <script src="../js/main.js"></script>
+    <script src="../js/events.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+    <script src="../js/cursor.js"></script>
+</body>
+
+</html>

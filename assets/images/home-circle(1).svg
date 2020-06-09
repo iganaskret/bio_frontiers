@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1358.32 688">
+  <defs>
+    <style>
+      .fill-color__home-hero {
+        fill: #82a6a2;
+      }
+    </style>
+  </defs>
+  <path class="fill-color__home-hero" d="M1379.16,698.5H20.84a703.43,703.43,0,0,1,14-138.67A689.62,689.62,0,0,1,320.65,128.05a670.79,670.79,0,0,1,758.7,0,690.47,690.47,0,0,1,285.79,431.77A703.61,703.61,0,0,1,1379.16,698.5Z" transform="translate(-20.84 -10.5)"/>
+</svg>
